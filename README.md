@@ -1,7 +1,8 @@
 **Response to post-publication critique**: “Does multilingualism really protect against accelerated ageing? Some critical comments” (Jan Vanhove)
 
 ---
-![p-value](https://img.shields.io/badge/p--value-%3C0.001-brightgreen)
+![Status](https://img.shields.io/badge/status-important-red)
+
 
 
 This document constitutes a response to the post-publication commentary by Jan Vanhove on our recently published article in Nature Aging, “Multilingualism protects against accelerated aging in cross-sectional and longitudinal analyses of 27 European countries” (https://www.nature.com/articles/s43587-025-01000-2). The commentary was initially disseminated as a blog post (https://janhove.github.io/posts/2025-12-15-multilingualism-accelerated-ageing/) and subsequently released as a preprint (https://osf.io/preprints/psyarxiv/rmnv9_v1). For clarity and reproducibility, we structure our response around the preprint version, which provides a stable and citable record of the critiques, while also addressing additional points raised in the original blog post.
