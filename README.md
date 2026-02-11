@@ -48,7 +48,7 @@ The article suggests that the accelerated ageing variable was derived from fourt
 
 ${\color{red}**Response}$ 1.1:** We thank the commenter for inspecting the released data and code and for identifying this discrepancy. We acknowledge this reporting error and confirm that the model was trained on twelve predictors, not fourteen, as shown in **Figure 1b** of the pipeline.
 
-${\color{red}Response}$
+${\color{red}Response haundnucu nuanuasha nucnunc}$
 
 <span style="color:red;">The discrepancy originates from the reuse of the conceptual framework from our previous Nature Medicine study<sup>1</sup>, where alcohol consumption and unhealthy weight were available in a broader multinational sample. In the present European subsample, these two variables showed extensive missing data across countries and were therefore excluded to preserve sample size and cross-country comparability. The released code and data correctly reflect this twelve-predictor specification, but this aspect was not properly updated in the pipeline figure.</span> 
 
