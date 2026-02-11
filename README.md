@@ -66,7 +66,7 @@ The article claims that the evidence is based on data from 86,149 respondents in
 
 
 ```diff
-**Response 1.2:** We thank the commenter for identifying this inconsistency.
+- **Response 1.2:** We thank the commenter for identifying this inconsistency.
 ``` 
 
 <span style="color:red;">The reduced sample size observed in the downstream epidemiological analyses resulted from a country-label mapping error introduced during dataset integration. Specifically, BBAGs were computed using the correct participant-level dataset including Slovakia, whereas the country-level metadata file used for the association models omitted Slovakia and erroneously included Serbia. This mismatch led to the unintended exclusion of the Slovak subsample (N = 2,022) from the cross-sectional and longitudinal analyses. </span>
