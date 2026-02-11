@@ -2,7 +2,9 @@
 
 ---
 
-${\color{red}RED}$
+**Response 1.1:** $\colorbox{red}{\color{white}\textbf{ CORRECTION }}$ We thank the commenter for inspecting the released data and code and for identifying this discrepancy. We acknowledge this reporting error and confirm that the model was trained on twelve predictors, not fourteen, as shown in **Figure 1b** of the pipeline.
+
+The discrepancy originates from the reuse of the conceptual framework from our previous Nature Medicine study<sup>1</sup>, where alcohol consumption and unhealthy weight were available in a broader multinational sample. In the present European subsample, these two variables showed extensive missing data across countries and were therefore excluded to preserve sample size and cross-country comparability. The released code and data correctly reflect this twelve-predictor specification, but this aspect was not properly updated in the pipeline figure.
 
 
 This document constitutes a response to the post-publication commentary by Jan Vanhove on our recently published article in Nature Aging, “Multilingualism protects against accelerated aging in cross-sectional and longitudinal analyses of 27 European countries” (https://www.nature.com/articles/s43587-025-01000-2). The commentary was initially disseminated as a blog post (https://janhove.github.io/posts/2025-12-15-multilingualism-accelerated-ageing/) and subsequently released as a preprint (https://osf.io/preprints/psyarxiv/rmnv9_v1). For clarity and reproducibility, we structure our response around the preprint version, which provides a stable and citable record of the critiques, while also addressing additional points raised in the original blog post.
