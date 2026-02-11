@@ -1,7 +1,9 @@
 **Response to post-publication critique**: “Does multilingualism really protect against accelerated ageing? Some critical comments” (Jan Vanhove)
 
 ---
-![Status](https://img.shields.io/badge/status-important-red)
+```html
+<span style="color:red;">**Re-analysis with 14 factors (including alcohol consumption and unhealthy weight)**. To evaluate whether exclusion of these two variables affected model performance, we conducted a sensitivity analysis in the European subsample with complete data on alcohol consumption and unhealthy weight (N = 39,639) ([Code-01-BBAGs_computation_extra-vars](https://github.com/euroladbrainlat/Biobehavioral-age-gaps-Multilingualism-r2r-git/blob/main/scripts/Code-01-BBAGs_computation_extra-vars.ipynb)). Re-estimating the model in this subsample yielded nearly identical predictive performance and predictor rankings compared to the published model (**Fig. 1**). In both cases, the strongest contributors remained functional ability, hearing impairment, education, hypertension, cognition, and heart disease, whereas alcohol consumption and unhealthy weight did not rank among the dominant predictors. These results indicate excluding these variables does not affect the age-prediction framework or downstream analyses. </span>
+```
 
 
 
