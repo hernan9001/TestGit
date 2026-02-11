@@ -1,6 +1,7 @@
 **Response to post-publication critique**: “Does multilingualism really protect against accelerated ageing? Some critical comments” (Jan Vanhove)
 
 ---
+![p-value](https://img.shields.io/badge/p--value-%3C0.001-brightgreen)
 
 
 This document constitutes a response to the post-publication commentary by Jan Vanhove on our recently published article in Nature Aging, “Multilingualism protects against accelerated aging in cross-sectional and longitudinal analyses of 27 European countries” (https://www.nature.com/articles/s43587-025-01000-2). The commentary was initially disseminated as a blog post (https://janhove.github.io/posts/2025-12-15-multilingualism-accelerated-ageing/) and subsequently released as a preprint (https://osf.io/preprints/psyarxiv/rmnv9_v1). For clarity and reproducibility, we structure our response around the preprint version, which provides a stable and citable record of the critiques, while also addressing additional points raised in the original blog post.
@@ -65,9 +66,9 @@ The article claims that the evidence is based on data from 86,149 respondents in
 *“The Jupyter notebook main_BAGs_computation.ipynb does not actually output the BAGs. Instead, two new datasets are fed to the second round of analyses. The first of these new datasets is scripts/main/data/BAG_OR_cross.csv. It contains 84,127 observations of 21 variables, most of which contain country-level information. This dataset was used for the cross-sectional analyses carried out in the Jupyter notebook scripts/main/ORs_cross.ipynb. The second is scripts/main/data/BAG_or_long.csv, which contains 81,329 observations of 22 variables and was used for the longitudinal analyses carried out in the Jupyter notebook scripts/main/ORs_long.ipynb. The difference in sample sizes is not commented on anywhere. The difference between 86,149 (data.csv) and 84,127 (BAG_OR_cross.csv) is 2,022, which happens to be exactly the size of the Slovak sample. The supplementary Table 6 does not contain any information about Slovakia, but it does contain information about Serbia, which is not represented in data.csv. It would seem that an output file containing the BAGs was merged with a dataset containing country-level information. Slovakia may have been missing from the latter dataset. Neither the actual BAG computation and output nor the merging is documented in any of the notebooks, though.”*
 
 
-```diff
-- **Response 1.2:** We thank the commenter for identifying this inconsistency.
-``` 
+
+**Response 1.2:** We thank the commenter for identifying this inconsistency.
+
 
 <span style="color:red;">The reduced sample size observed in the downstream epidemiological analyses resulted from a country-label mapping error introduced during dataset integration. Specifically, BBAGs were computed using the correct participant-level dataset including Slovakia, whereas the country-level metadata file used for the association models omitted Slovakia and erroneously included Serbia. This mismatch led to the unintended exclusion of the Slovak subsample (N = 2,022) from the cross-sectional and longitudinal analyses. </span>
 
